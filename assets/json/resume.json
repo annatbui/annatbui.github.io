@@ -39,15 +39,14 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
+      "institution": "University of Cambridge",
+      "location": "Cambridge, United Kingdom",
       "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "area": "Chemistry",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2022-10-01",
+      "endDate": "2026-03-30",
+      "courses": ["Statistical mechanics"]
     }
   ],
   "awards": [
