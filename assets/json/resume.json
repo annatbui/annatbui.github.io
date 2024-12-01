@@ -14,7 +14,7 @@
       }
     ]
   },
-  "work": [
+  "experience": [
     {
       "name": "Institute for Advanced Study, Princeton University",
       "position": "Professor of Theoretical Physics",
@@ -25,7 +25,7 @@
       "highlights": ["Relativity"]
     }
   ],
-  "volunteer": [
+  "teaching": [
     {
       "organization": "People's Climate March",
       "location": "Zurich, Switzerland",
@@ -58,7 +58,7 @@
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
-  "certificates": [
+  "conferences": [
     {
       "name": "Machine Learning",
       "date": "2018-01-01",
