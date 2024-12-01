@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD student @ University of Cambridge</a>
+subtitle: <a href='https://www.ch.cam.ac.uk/person/btb32'></a> PhD student @ University of Cambridge
 
 profile:
   align: right
