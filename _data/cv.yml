@@ -1,1 +1,17 @@
-See PDF for academic CV.
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Anna Bui
+    - name: Email
+      value: btb32@cam.ac.uk
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Chemistry
+      institution: University of Cambridge, Cambridge, UK
+      year: 2022-2026 (expected)
+    - title: MSci & BA (Hons) in Natural Sciences 
+      institution: University of Cambridge, Cambridge, UK
+      year: 2018-2026
