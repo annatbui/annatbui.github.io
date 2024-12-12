@@ -2,7 +2,7 @@
 layout: page
 title: multiscale modeling
 description: how to go from microscopic correlations to mesoscale phenomena?
-img: assets/img/12.jpg
+img: assets/img/toc-solvation-simple.png
 importance: 1
 category: 
 related_publications: true
