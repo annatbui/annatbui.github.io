@@ -1,7 +1,7 @@
 ---
 layout: page
 title: multiscale modeling
-description: with background image
+description: how to go from microscopic correlations to mesoscale phenomena?
 img: assets/img/12.jpg
 importance: 1
 category: 
