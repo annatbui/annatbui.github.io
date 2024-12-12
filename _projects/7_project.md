@@ -2,7 +2,7 @@
 layout: page
 title: non-equilibrium response
 description: how do fluids flow under the nanoscale?
-img: assets/img/4.jpg
+img: assets/img/QF-fancy.png
 importance: 1
 category: 
 related_publications: true
