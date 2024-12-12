@@ -1,27 +1,15 @@
 ---
 layout: page
-title: non-equilibrium response
-description: how do fluids flow under the nanoscale?
+title: Non-equilibrium response
+description: How do fluids flow under the nanoscale?
 img: assets/img/QF-fancy.png
 importance: 1
 category: 
 related_publications: true
 ---
 
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic. {% cite Bui2023qf %}  {% cite Bui2024gk %}
-</div>
+See below for a poster on my work
 
-You can also put regular text between your rows of images, even citations 
-
-
-</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/poster-qf.png" title="example image" class="img-fluid rounded z-depth-1" %}
