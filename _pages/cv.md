@@ -7,13 +7,14 @@ nav_order: 3
 cv_pdf: assets/pdf/cv-2024.pdf
 description: |
   Below is my most recent CV. If the PDF does not load, you can 
-  <a href="{{ '/assets/pdf/cv-2024.pdf' | relative_url }}" target="_blank">download it here</a>.
+  <a href="{{ site.baseurl }}/assets/pdf/cv-2024.pdf" target="_blank">Download it here</a>.
 toc:
   sidebar: left
 ---
 
+
 <iframe 
-    src="{{ '/assets/pdf/cv-2024.pdf' | relative_url }}" 
+    src="{{ site.baseurl }}/assets/pdf/cv-2024.pdf" 
     width="100%" 
     height="800px" 
     style="border: none;">
