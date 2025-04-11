@@ -4,6 +4,8 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - annatbui/LCW-cDFT
+  - annatbui/ion-cdft
   - annatbui/friction-GK
+  - annatbui/LCW-cDFT
+  
 
