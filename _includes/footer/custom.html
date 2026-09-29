@@ -3,14 +3,13 @@
 <!-- Support for MathJax -->
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
 
-<!-- Open external links, PDFs, and the Research page in a new tab -->
+<!-- Open external links and PDFs in a new tab -->
 <script>
   document.querySelectorAll('a[href]').forEach(function (link) {
     var isWeb = link.protocol === 'http:' || link.protocol === 'https:';
     var isExternal = link.hostname !== window.location.hostname;
     var isPdf = /\.pdf$/i.test(link.pathname);
-    var isResearch = /^\/research\/?$/.test(link.pathname);
-    if (isWeb && (isExternal || isPdf || isResearch)) {
+    if (isWeb && (isExternal || isPdf)) {
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
     }
