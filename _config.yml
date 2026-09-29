@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Anna T. Bui"
 title_separator          : "-"
 name                     : &name "Anna T. Bui"
-description              : &description "Anna T. Bui, PhD student in Chemistry at the University of Cambridge"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Anna T. Bui, Stanford Science Fellow at Stanford University"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://annatbui.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,11 +26,13 @@ author:
   avatar           : "prof_pic.jpg"
   name             : "Anna T. Bui"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student @ University of Cambridge"
-  location         : "Cambridge, UK"
-  employer         : "University of Cambridge"
+  bio              : "Stanford Science Fellow @ Stanford University"
+  location         : "Stanford, CA"
+  employer         : "Stanford University"
   uri              : # URL
-  email            : "btb32@cam.ac.uk" 
+  email            :
+    - "annatbui@stanford.edu"
+    - "btb32@cam.ac.uk"
 
   # Academic websites
   academia         : # URL

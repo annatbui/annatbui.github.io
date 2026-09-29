@@ -34,7 +34,14 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        {% if author.email.first %}
+          <!-- Multiple addresses: show each address in full -->
+          {% for address in author.email %}
+            <li><a href="mailto:{{ address }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ address }}</a></li>
+          {% endfor %}
+        {% else %}
+          <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        {% endif %}
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
