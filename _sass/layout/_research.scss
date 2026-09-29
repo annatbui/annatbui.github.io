@@ -45,26 +45,3 @@
   font-style: italic;
   color: var(--global-text-color-light);
 }
-
-.research-topic__poster {
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  margin-top: 1.5em;
-
-  img {
-    width: 110px;
-    border: 1px solid var(--global-border-color);
-    border-radius: 4px;
-    transition: transform 0.2s ease;
-  }
-
-  a:hover img {
-    transform: scale(1.04);
-  }
-
-  span {
-    font-size: $type-size-6;
-    color: var(--global-text-color-light);
-  }
-}
