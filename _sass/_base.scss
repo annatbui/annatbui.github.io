@@ -402,6 +402,16 @@ ul.task-list input[type="checkbox"] {
   .contact-note {
     font-size: 0.8rem;
   }
+
+  // Smaller icons when shown under the profile photo on the about page
+  &.social-sidebar {
+    margin-top: 1rem;
+
+    .contact-icons {
+      font-size: 2rem;
+      line-height: 1.4;
+    }
+  }
 }
 
 .wechat-modal {

@@ -1,20 +1,11 @@
 ---
-layout: page
+layout: null
 permalink: /publications/
 title: publications
-description: 
 nav: true
 nav_order: 2
+external_url: https://scholar.google.com/citations?user=0q-Nre8AAAAJ&hl=en
 ---
-
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>
+<!doctype html>
+<meta http-equiv="refresh" content="0; url={{ page.external_url }}">
+<link rel="canonical" href="{{ page.external_url }}">
