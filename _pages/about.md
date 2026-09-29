@@ -7,14 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a [Stanford Science Fellow](https://stanfordsciencefellows.stanford.edu/meet-fellows) at Stanford University.
+I am a theoretical chemist and currently a [Stanford Science Fellow](https://stanfordsciencefellows.stanford.edu/meet-fellows) at Stanford University. I study how fluids behave across length scales, from molecular interactions to macroscopic flow. My research combines statistical physics, computer simulation, and machine learning to develop predictive theories for water, ions, and electrolytes, with applications in energy, nanofluidics, and functional materials.
 
-My research uses statistical mechanics and computer simulations to model fluids' behaviours that often spans across different length scales, capturing both microscopic correlations and mesoscopic phenomena. During my PhD at the University of Cambridge, I focused on
-
-* Equilibrium response: solvation phenomena, electric double layer
-* Non-equilibrium response: how fluids flow under the nanoscale
-
-My research heavily draws on theoretical techniques in soft matter (classical density functional theory, continuum hydrodynamics) and developing and applying them to systems of revelant in chemical physics (water, ions).
+I obtained my PhD in 2026 at the University of Cambridge, where I developed multiscale frameworks linking microscopic solvation and transport to collective phenomena ([thesis](https://doi.org/10.17863/CAM.132611)).
 
 ## Recent Highlights
 
