@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
 Sitemap: https://annatbui.github.io/sitemap.xml
