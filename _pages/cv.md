@@ -1,46 +1,14 @@
 ---
-layout: default
+layout: archive
+title: "CV"
 permalink: /cv/
-title: CV
-nav: true
-nav_order: 3
-cv_pdf: assets/pdf/cv-2024.pdf
-description: 
-toc:
-  sidebar: left
+author_profile: true
+redirect_from:
+  - /resume
 ---
 
+{% include base_path %}
 
+[Download CV (PDF)]({{ base_path }}/files/cv-2024.pdf)
 
-<!-- Show Download Button for Mobile -->
-<div class="mobile-only" style="text-align: center; margin-bottom: 20px; padding: 15px; background-color: #f0f0f0; border-radius: 8px;">
-  <a href="{{ site.baseurl }}/assets/pdf/cv-2024.pdf" 
-     target="_blank" 
-     style="display: inline-block; padding: 10px 15px; background-color: #f0f0f0; color: #000; font-weight: bold; text-decoration: none; border-radius: 5px; border: 2px solid #000; transition: background 0.3s;">
-    📎 Download CV (PDF)
-  </a>
-</div>
-
-<!-- Embed PDF for Desktop -->
-<div class="desktop-only" style="position: relative; padding-bottom: 130%; height: 0; overflow: hidden; max-width: 100%; background: #f8f8f8;">
-  <iframe 
-      src="{{ site.baseurl }}/assets/pdf/cv-2024.pdf" 
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
-      allowfullscreen>
-  </iframe>
-</div>
-
-<!-- Make mobile/desktop display conditional -->
-<style>
-  @media (max-width: 768px) {
-    .desktop-only { display: none; }
-  }
-  @media (min-width: 769px) {
-    .mobile-only { display: none; }
-  }
-
-  /* Button Hover Effect */
-  .mobile-only a:hover {
-    background-color: #555;
-  }
-</style>
+<iframe src="{{ base_path }}/files/cv-2024.pdf" style="width: 100%; height: 1000px; border: none;"></iframe>
