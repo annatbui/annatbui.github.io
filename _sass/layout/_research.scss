@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Research page
+   ========================================================================== */
+
+.research-topic {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  margin: 2em 0 3em;
+  padding-bottom: 2.5em;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  @include breakpoint($medium) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  h2 {
+    margin-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.research-topic__media {
+  flex: 0 0 40%;
+
+  img {
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.research-topic__body {
+  flex: 1;
+}
+
+.research-topic__question {
+  font-size: 1.1em;
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
+
+.research-topic__poster {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-top: 1.5em;
+
+  img {
+    width: 110px;
+    border: 1px solid var(--global-border-color);
+    border-radius: 4px;
+    transition: transform 0.2s ease;
+  }
+
+  a:hover img {
+    transform: scale(1.04);
+  }
+
+  span {
+    font-size: $type-size-6;
+    color: var(--global-text-color-light);
+  }
+}
