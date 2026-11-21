@@ -13,6 +13,8 @@ I obtained my PhD in 2026 at the University of Cambridge, where I developed mult
 
 ## Recent Highlights
 
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7529759576301244416" height="1000" width="504" style="max-width: 100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7510525561656623105" height="1010" width="504" style="max-width: 100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7488201914770309120" height="705" width="504" style="max-width: 100%;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
